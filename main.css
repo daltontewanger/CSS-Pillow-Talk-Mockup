@@ -3,16 +3,17 @@
 
 /*********************************
  * Build Helpers
- *********************************/
-/* give each element a border */
+
+
 * {
     border: 1px solid mediumvioletred;
 }
 
-/* shrink images for placement */
+
 img {
     width: 100px;
 }
+*********************************/
 
 /*********************************
 * General
@@ -68,15 +69,53 @@ header div:last-child {
 /*********************************
 * Container
 *********************************/
-
+.container {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+}
 /*********************************
 * Aside/Nav
 *********************************/
+aside {
+    flex-basis: 15%;
+    min-width: 15%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
+ul {
+    padding: 0;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+}
 /*********************************
 * Main
 *********************************/
+main {
+    width: 85%;
+    flex-basis: 85%;
+}
 
-/*********************************
-* Footer
-*********************************/              
+div[class$='row']  {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+ .top-row img {
+    width: 100%;
+ }
+
+ .middle-row img {
+   width: 49%;
+ }
+
+ .bottom-row img {
+   width: 32%;
+ }
