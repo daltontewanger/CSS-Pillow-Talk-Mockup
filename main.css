@@ -37,3 +37,46 @@ h2 {
 h1 {
     font-family: 'Fredoka One', cursive;
 }
+
+/*********************************
+* Header
+*********************************/
+header {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5em;
+}
+
+header div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 1.5em;
+}
+
+header h1 {
+    text-align: left;
+}
+
+header div:last-child {
+    display: flex;
+    align-items: center;
+    width: 20%
+}
+/*********************************
+* Container
+*********************************/
+
+/*********************************
+* Aside/Nav
+*********************************/
+
+/*********************************
+* Main
+*********************************/
+
+/*********************************
+* Footer
+*********************************/              
